@@ -1,0 +1,80 @@
+.container {
+  max-width: 1223px;
+  margin: 0 auto;
+}
+.row {
+  display: flex;
+}
+.col-6 {
+  width: 50%;
+}
+.favorite-brand {
+  text-transform: uppercase;
+  color: var(--c-72535, #C72535);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+.box {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+.text-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.box h2 span {
+  color: #247CC0;
+
+  font-size: 61px;
+  font-weight: 600;
+  background: rgba(94, 180, 255, 0.3);
+}
+
+.box h2 {
+
+  font-size: 61px;
+  font-weight: 600;
+}
+.description {
+  color: #030D15;
+  //font-family: Hind Siliguri;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+}
+.price-bar {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.price-bar button {
+  padding: 16px 35px;
+  text-transform: uppercase;
+  color: white;
+  border: 0;
+  background: #247CC0;
+}
+.price-bar h4 {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 27px;
+}
+.sales-price  {
+  color: #030D15;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 27px;
+  text-decoration: line-through	;
+}
+.section {
+  width: 1140px   ;
+  display: flex;
+  align-items: center;
+  gap: 84px;
+  padding: 75px 0;
+}

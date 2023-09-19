@@ -1,0 +1,31 @@
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 31px 0;
+}
+.nav {
+    & .__ul{
+        list-style: none;
+        display: flex;
+        gap: 40px;
+        align-items: center;
+        & .__a {
+            color: #030D15;
+            text-decoration: none;;
+            }
+        }
+    }
+.operationBar {
+    display: flex;
+    align-items: center;
+    gap: 27px;
+& button {
+    background: transparent;
+    border: 0;
+}
+}
